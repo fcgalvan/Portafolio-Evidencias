@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinépolis</title>
+    <link rel="icon" type="image/png" href="logocinepolis.png">
+    <style>
+        table, th
+        {
+            border: 2px solid blue
+        }
+        td
+        {
+            border: 2px solid blue
+        }
+    </style>
+</head>
+<body bgcolor="pink">
+    <h1 align="center">CINÉPOLIS</h1>
+    <form>
+        <table align="center">
+            <h2 align="center">Cartelera</h2>
+            <thead>
+                <tr>
+                    <th><img src="antman.jpg" alt="" width="150px"></th>
+                    <th><img src="creedIII.jpg" alt="" width="150px"></th>
+                    <th><img src="laballena.jpg" alt="" width="150px"></th>
+                    <th><img src="scream6.jpg" alt="" width="150px"></th>
+                    <th><img src="65-bordeextincion.jpg" alt="" width="150px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">Ant-Man and The Wasp: Quantumania</td>
+                    <td align="center">Creed III</td>
+                    <td align="center">La Ballena</td>
+                    <td align="center">Scream 6</td>
+                    <td align="center">65: Al borde de la extinción</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <fieldset>
+            <legend align="center">Compra de boletos</legend>
+            <label for="Boletos">Boletos de películas disponibles</label>
+            <br>
+            <br>
+            <select size="5" multiple>
+                <optgroup label="Películas">
+                    <br>
+                    <option value="1">Ant-Man and The Wasp: Quantumania</option>
+                    <option value="2"> Creed III</option>
+                    <option value="3"> La Ballena</option>
+                    <option value="4"> Scream 6</option>
+                    <option value="5"> 65: Al borde de la extinción</option>
+                </optgroup>
+            </select>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend align="center">Datos del Usuario</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" maxlength="25">
+            <br>
+            <label for="apellidop">Apellido Paterno:</label>
+            <input type="text" name="apellidop" id="apellidop" maxlenght="25">
+            <br>
+            <label for="apellidom">Apellido Materno:</label>
+            <input type="text" name="apellidom" id="apellidom">
+            <br>
+            <label for="num">Número de Teléfono:</label>
+            <input type="tel" name="num" id="num">
+            <br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo" id="correo">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Selección de función y asientos</legend>
+            <br>
+            <label for="dia">Fecha y hora de función</label>
+            <input type="datetime-local" name="dia" id="dia">
+            <br>
+            <label for="filas">Fila</label>
+            <br>
+            <select size="5" multiple>
+                <optgroup label="filas">
+                    <br>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+                    <option value="4">D</option>
+                    <option value="5">E</option>
+                    <option value="6">F</option>
+                    <option value="7">G</option>
+                    <option value="8">H</option>
+                    <option value="9">I</option>
+                    <option value="10">J</option>
+                </optgroup>
+            </select>
+            <br>        
+            <h4>Selecciona tu método de pago</h4>
+            <input type="checkbox" name="forma1" id="forma1" value="tdc" checked>
+            <label for="forma1">Tarjeta de crédito</label>
+            <br>
+            <input type="checkbox" name="forma2" id="forma2" value="efec">
+            <label for="forma2">Efectivo</label>
+            <br>
+            <input type="checkbox" name="forma3" id="forma3" value="tdd">
+            <label for="forma3">Tarjeta de débito</label>
+            <br>
+            <br>
+
+
+
+        </fieldset>
+        <br>
+        <input type="submit" name="enviar" id="enviar" value="Enviar formulario">
+        <br>
+        <br>
+        <input type="reset" name="borrar" id="borrar" value="Eliminar formulario">
+
+    
+    </form>
+</body>
+</html>
