@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos - Formularios</title>
+    <link rel="icon" type="image/jpg" href="logouni.jpg">
+    <link rel="stylesheet" href="practica5.css">
+</head>
+<body>
+    <h1>Servicios de Internet y Telefonía</h1>
+    <h2>Contrato de Servicios</h2>
+    <form id="uno">
+        <fieldset>
+            <legend>Datos del cliente</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombres">Nombre: </label>
+                        <br>
+                        <input type="text" name="nombres" id="nombres" placeholder="Nombre Cliente">
+                    </td>
+                    <td>
+                        <label for="apellidop">Apellido Paterno: </label>
+                        <br>
+                        <input type="text" name="apelliop" id="apellidop" placeholder="Apellido Paterno">
+                    </td>
+                    <td>
+                        <label for="apellidom">Apellido Materno: </label>
+                        <br>
+                        <input type="text" name="apellidom" id="apellidom" placeholder="Apellido Materno">
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <label for="ciudad">Ciudad: </label>
+                        <br>
+                        <select size="5" multiple>
+                            <optgroup>
+                                <option value="1">San Luis Potosí</option>
+                                <option value="2">Matehuala</option>
+                                <option value="3">Cd. Valles</option>
+                                <option value="4">Querétaro</option>
+                                <option value="5">Guanajuato</option>
+                                <option value="6">Guadalajara</option>
+                            </optgroup>
+                        </select> 
+                    </td>
+                 </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset id="dos">
+            <legend>Servicio a Contratar</legend>
+            <label>Selecciona el tipo de servicio a contratar</label>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <label for="form1">Línea Telefónica</label>
+                        <input type="checkbox" name="form1" id="form1" value="LT" checked>
+                    </td>
+                    <td>
+                        <label for="form2">Servicio de Internet</label>
+                        <input type="checkbox" name="form2" id="form2" value="SI" checked>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Forma de pago</legend>
+            <label>Elige forma de pago</label>
+            <br>
+            <label for="forma1">TDC</label>
+            <input type="checkbox" name="forma1" id="forma1" value="TDC">
+            <br>
+            <label for="forma2">Tarjeta Débito</label>
+            <input type="checkbox" name="forma2" id="forma2" value="td" checked>
+            <br>
+            <label for="forma3">Pago en Efectivo</label>
+            <input type="checkbox" name="forma3" id="forma3" value="pe">
+            <br>
+            <label for="forma4">Pago mediante Cheque</label>
+            <input type="checkbox" name="forma4" id="forma4" value="pc">
+            <br>
+            <label for="forma5">Transferencia Bancaria</label> 
+            <input type="checkbox" name="forma5" id="forma5" value="tb">
+            <br>
+            <label for="forma6">Depósito Bancario</label>
+            <input type="checkbox" name="forma6" id="forma6" value="db">
+            <br>
+            <label for="forma7">Pago en Oxxo</label>
+            <input type="checkbox" name="forma7" id="forma7" value="po">
+            <br>
+            <br>  
+            <input type="submit" name="enviar" id="enviar" value="Enviar formulario">
+            <br>
+            <br>
+            <input type="reset" name="borrar" id="borrar" value="Eliminar formulario">
+            
+        </fieldset>
+       
+    </form>
+    <br>
+    <br>
+<h2>"Práctica 5"</h2>
+<br>
+<h3>"HTML y CSS"</h3>
+<br>
+<h3>Primavera 2023</h3>
+
+</body>
+</html>
