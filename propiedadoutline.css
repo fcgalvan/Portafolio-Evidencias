@@ -1,0 +1,15 @@
+h1{
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    outline-color:red;
+    outline-style: dotted;
+}
+
+<link rel="stylesheet" href="outline.html">
