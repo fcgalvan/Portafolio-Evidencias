@@ -1,0 +1,88 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url(Libre_Baskerville/LibreBaskerville-Italic.ttf) format(truetype);
+}
+#texto1{
+    display: block;
+    width: 395px;
+    padding: 7px;
+    border: 1px solid #000000;
+    text-align: left;
+    margin: 40px 940px;
+    background-color: #ffffff;
+
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-color: white;
+    color: blue;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.header {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-color: cyan;
+    border: 1px solid;
+}
+
+.header__container--servicios > .menu--nav {
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    padding: auto;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    background-color: blanchedalmond;
+    text-align: center;
+
+}
+
+ul.ver {
+   display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: auto;
+    height: 0;
+    padding: 1rem .50rem;
+    opacity: 0;
+    visibility: hidden;
+    background-color: blanchedalmond;
+    transition: all 0.3s ease-in-out
+}
+
+.hover:hover ul.ver {
+    height: auto;
+    opacity: 1;
+    visibility: visible
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+  
+} .hover h2 {
+    color: red
+}
+
+li {
+    list-style: none
+}
