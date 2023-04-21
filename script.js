@@ -1,40 +1,32 @@
 
 function suma(){
-    var num1, num2, resul;
-    num1=parseInt(prompt("Primer número", ""));
-    num2=parseInt(prompt("Segundo número", ""));
-    resul=num1+num2;
-    alert("La suma es: "+resul);
+    var n1, n2, sum;
+    n1=document.getElementById("num1").value;
+    n2=document.getElementById("num2").value;
+    sum=(n1)+(n2);
+    document.getElementById("resul").innerHTML=sum;
 
 }
 function resta(){
-    var num1, num2, resul;
-    num1= parseInt(prompt("Primer número", ""));
-    num2= parseInt(prompt("Segundo número", ""));
-    resul= num1-num2;
-    alert("El resultado de la resta es: "+resul);
+    var n1, n2, res;
+    n1= document.getElementById("num1").value;
+    n2= document.getElementById("num2").value;
+    res= n1-n2;
+    document.getElementById("resul").innerHTML=res;
 }
 
 function multi(){
-    
-    num1 = parseInt(prompt("Primer número", ""));
-    num2 = parseInt(prompt("Segundo número", ""));
-    resul= num1*num2;
-    alert("El resultado de la multiplicación es: "+resul );
+    var n1, n2, mul;
+    n1 = document.getElementById("num1").value;
+    n2 = document.getElementById("num2").value;
+    mul= n1*n2;
+    document.getElementById("resul").innerHTML=mul;
 }
-
 function divi(){
-    num1 = parseInt(prompt("Primer número", ""));
-    num2 = parseInt(prompt("Segundo número", ""));
-    resul= num1/num2;
-    alert("El resultado de la división es: "+resul);
+    var n1, n2, divis;
+    n1 = document.getElementById("num1").value;
+    n2 = document.getElementById("num2").value;
+    divis= n1/n2;
+    document.getElementById("resul").innerHTML=divis;
 }
 
-function poneg(){
-    var num=prompt("Número:", "");
-    if(parseInt(num)>0)
-        alert("El número es positivo");
-    else
-        if(parseInt(num)<0) 
-        alert("El número es negativo");   
-}

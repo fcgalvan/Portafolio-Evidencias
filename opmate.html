@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Matemáticas</title>
+    <link rel="stylesheet" href="estiloscript.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Operaciones Matemáticas</h2>
+
+    <form method="post" action="" enctype="text/plain">
+        <label for="num1" >Número 1:</label>
+        <br>
+        <input type="text" id="num1" name="num1">
+        <br>
+        <br>
+        <label for="num2" >Número 2:</label>
+        <br>
+        <input type="text" id="num2" name="num2">
+        <br>
+        <br>
+        <input type="button" id="boton" name="boton" onclick="suma()" value="Suma">
+        <input type="button" id="boton2" name="boton2" onclick="resta()" value="Resta"> 
+        <input type="button" id="boton3" name="boton3" onclick="multi()" value="Multiplicación">
+        <input type="button" id="boton4" name="boton4" onclick="divi()" value="División">
+    
+    </form>
+
+    <h4>El resultado es:</h4>
+    <p id="resul" name="resul"></p>
+
+    
+</body>
+</html>
